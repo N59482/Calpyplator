@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>img/The_C .png</file>
+        <file>img/The_Calpyplator.png</file>
+        <file>img/The_Calpyplator_2.png</file>
+        <file>sounds/pik.wav</file>
+    </qresource>
+</RCC>

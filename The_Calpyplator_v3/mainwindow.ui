@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>361</width>
+    <height>433</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>361</width>
+    <height>433</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">The Calpyplator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/res/img/The_C .png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,stop: 0 #272927, stop: 1 #8c918c);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>361</width>
+     <height>433</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>361</width>
+     <height>433</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background-color: rgb(34, 94, 102)  ;
+background-color: rgb(34, 94, 102);*/
+ background-color:  #3c3d3c
+
+</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>365</width>
+      <height>434</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2" rowstretch="70,0,0,0,0,0,0,0" columnstretch="70,0,0,0,0">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetMinimumSize</enum>
+     </property>
+     <property name="leftMargin">
+      <number>2</number>
+     </property>
+     <property name="topMargin">
+      <number>2</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>2</number>
+     </property>
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pKvadrat">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: white;
+     font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0, 0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>^2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3" colspan="2">
+      <widget class="QPushButton" name="pequal">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     /*background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);*/
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #0cadc2);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+    /* background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #423b34, stop: 1 #14fcb7);*/
+    background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #423b34, stop: 1 #21c8de);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     /* background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #4fb898);*/
+    background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #1fdaf2);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="ppoint">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="pdev">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: rgb(11, 166, 186);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>/</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="pmultiplication">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {border: 2px solid #050505;border-radius: 5px;background-color:qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,stop: 0 #3c3d3c, stop: 1 #8c918c);color: rgb(11, 166, 186);font: 63 18pt &quot;Bahnschrift SemiBold&quot;;} QPushButton:hover{border: 2px solid #050505;border-radius: 6px;background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,stop: 0 #21201f, stop: 1 #30fcbf);}QPushButton:pressed {border: 2px solid #050505;border-radius: 9px;background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,stop: 0 #383532, stop: 1 #32d9a7);color: rgb(0,0,0); }QPushButton:flat {border: none; }QPushButton:default {border-color: navy;}</string>
+       </property>
+       <property name="text">
+        <string>*</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="p8">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);    
+      color: rgb(0,0,0);
+
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="p6">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="pminus">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: rgb(11, 166, 186);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1" colspan="2">
+      <widget class="QPushButton" name="p0">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>140</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="p7">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="p9">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="p4">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,   
+                                    stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="4">
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>10</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>355</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 63 26pt &quot;Bahnschrift SemiBold&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pLog">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { border: 2px solid #050505;border-radius: 5px;background-color:qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,stop: 0 #3c3d3c, stop: 1 #8c918c);color:white;font: 63 10pt &quot;Bahnschrift SemiBold&quot;; } QPushButton:hover {border: 2px solid #050505;border-radius: 6px;background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,stop: 0 #21201f, stop: 1 #30fcbf);}QPushButton:pressed { border: 2px solid #050505;border-radius: 9px;background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,stop: 0 #383532, stop: 1 #32d9a7);color: rgb(0, 0,0);}QPushButton:flat {border: none; }QPushButton:default {border-color: navy;}</string>
+       </property>
+       <property name="text">
+        <string>Log</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="p3">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="p5">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="p2">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #050505, stop: 1 #575049);
+    color: rgb(222, 222, 222);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="pplus">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: rgb(11, 166, 186);
+     font: 63 18pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="p1">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>68</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {border: 2px solid #050505;border-radius: 5px;background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,stop: 0 #050505, stop: 1 #575049);color: rgb(222, 222, 222);font: 63 18pt &quot;Bahnschrift SemiBold&quot;;\n } \nQPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}\nQPushButton:pressed {border: 2px solid #050505;border-radius: 9px;background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,stop: 0 #383532, stop: 1 #32d9a7);color: rgb(0,0,0);}QPushButton:flat{border: none;}QPushButton:default {border-color: navy;}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pKoren">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: white;
+     font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>√</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="pC">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: white;
+     font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0, 0,0);
+
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="pAC">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: white;
+     font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>AC</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QPushButton" name="pproc">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: white;
+     font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="pPlusminus">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+     border: 2px solid #050505;
+     border-radius: 5px;
+     background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,
+                                       stop: 0 #3c3d3c, stop: 1 #8c918c);
+    color: white;
+     font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+ } 
+QPushButton:hover {
+     border: 2px solid #050505;
+     border-radius: 6px;
+     background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,
+                                       stop: 0 #21201f, stop: 1 #30fcbf);
+}
+QPushButton:pressed {
+     border: 2px solid #050505;
+     border-radius: 9px;
+     background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,
+                                       stop: 0 #383532, stop: 1 #32d9a7);
+    color: rgb(0,0,0);
+ }
+
+
+
+ QPushButton:flat {
+     border: none; 
+ }
+
+ QPushButton:default {
+     border-color: navy;
+ }</string>
+       </property>
+       <property name="text">
+        <string>+/-</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pStyle">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>68</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {border: 2px solid #050505;border-radius: 5px;background-color: qlineargradient(x1: 0.35, y1: 0.7, x2: 0.5, y2: 0,stop: 0 #050505, stop: 1 #575049);color: rgb(222, 222, 222);font: 63 13pt &quot;Bahnschrift SemiBold&quot;;\n } \nQPushButton:hover {border: 2px solid #050505;border-radius: 6px;background-color: qlineargradient(x1: 0.6, y1: 1.1 x2: 0.9, y2: 0,stop: 0 #21201f, stop: 1 #30fcbf);\n}\nQPushButton:pressed {border: 2px solid #050505;border-radius: 9px;background-color: qlineargradient(x1: 0.45, y1: 0.8, x2: 0.6, y2: 0,stop: 0 #383532, stop: 1 #32d9a7);color: rgb(0,0,0);}QPushButton:flat{border: none;}QPushButton:default {border-color: navy;}</string>
+       </property>
+       <property name="text">
+        <string>night</string>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>300</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>58</y>
+      <width>286</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>358</width>
+      <height>10</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
